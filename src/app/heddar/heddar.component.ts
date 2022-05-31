@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { DataService } from '../data.service';
 
 @Component({
   selector: 'app-heddar',
@@ -9,9 +10,9 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./heddar.component.scss'],
 })
 export class HeddarComponent implements OnInit {
-  @Input() bar: string = '';
+  @Input() bar: string | null = '';
   foo = true;
-  constructor() {}
+  constructor(public data: DataService) {}
 
   ngOnInit(): void {}
 }

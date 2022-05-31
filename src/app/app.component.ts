@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { DataService } from './data.service';
 import { HeddarComponent } from './heddar/heddar.component';
 
 @Component({
@@ -11,4 +12,5 @@ import { HeddarComponent } from './heddar/heddar.component';
 })
 export class AppComponent {
   title = 'v14';
+  constructor(public service: DataService) {}
 }

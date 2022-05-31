@@ -1,0 +1,46 @@
+Module
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |   2.04 MB | 
+polyfills.js          | polyfills     | 291.46 kB | 
+styles.css, styles.js | styles        | 170.30 kB | 
+main.js               | main          |  50.44 kB | 
+runtime.js            | runtime       |   6.50 kB | 
+
+                      | Initial Total |   2.55 MB
+
+Standalone
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |   1.74 MB | 
+polyfills.js          | polyfills     | 291.46 kB | 
+styles.css, styles.js | styles        | 170.30 kB | 
+main.js               | main          |  46.91 kB | 
+runtime.js            | runtime       |   6.50 kB | 
+
+                      | Initial Total |   2.25 MB
+
+
+Build
+
+Module
+
+Initial Chunk Files           | Names         |  Raw Size | Estimated Transfer Size
+main.c2718b3dc282dcb5.js      | main          | 197.75 kB |                54.04 kB
+polyfills.fcab03c36ac363e8.js | polyfills     |  33.01 kB |                10.61 kB
+runtime.dec80d45ced41f87.js   | runtime       |   1.03 kB |               597 bytes
+styles.ef46db3751d8e999.css   | styles        |   0 bytes |                       -
+
+                              | Initial Total | 231.79 kB |                65.23 kB
+
+Build at: 2022-05-31T18:39:50.699Z - Hash: fee8ab1e1721e1bc - Time: 19014ms
+
+
+Standalone
+Initial Chunk Files           | Names         |  Raw Size | Estimated Transfer Size
+main.f3a31759e770d336.js      | main          | 106.51 kB |                32.82 kB
+polyfills.fcab03c36ac363e8.js | polyfills     |  33.01 kB |                10.61 kB
+styles.240a495af7af7685.css   | styles        |   3.71 kB |                 1.18 kB
+runtime.dec80d45ced41f87.js   | runtime       |   1.03 kB |               597 bytes
+
+                              | Initial Total | 144.26 kB |                45.20 kB
+
+Build at: 2022-05-31T18:37:54.739Z - Hash: eb6df511d0905218 - Time: 22279ms
